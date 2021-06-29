@@ -4,6 +4,8 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Demo {
 
@@ -12,5 +14,9 @@ public class Demo {
         System.out.println(content);
         System.out.println("this is test");
         System.out.println(content);
+        Map map = new HashMap();
+        map.put("page","1");
+        map.put("limit","10");
+        System.out.println(map);
     }
 }
