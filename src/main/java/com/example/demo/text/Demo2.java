@@ -8,6 +8,6 @@ import lombok.NoArgsConstructor;
 public class Demo2 {
     private String name;
     private boolean abc;
-    private int age;
+    private int age2;
 
 }
