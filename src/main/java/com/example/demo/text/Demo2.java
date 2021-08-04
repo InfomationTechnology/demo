@@ -10,4 +10,8 @@ public class Demo2 {
     private boolean abc;
     private int age2;
 
+    public static void main(String[] args) {
+
+    }
+
 }
