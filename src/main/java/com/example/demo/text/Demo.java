@@ -12,7 +12,7 @@ public class Demo {
     public static void main(String[] args) throws ParseException {
         String content =  String.format("message", "1a2e3");
         System.out.println(content);
-        System.out.println("this is test");
+        System.out.println("this is test1");
         System.out.println(content);
         Map map = new HashMap();
         map.put("page","8");
