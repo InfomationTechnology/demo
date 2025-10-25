@@ -72,6 +72,10 @@ public class Demo {
         });
         list3.forEach(System.out::println);*/
 
+        User user = new User();
+        user.setClock(true);
+        System.out.println(user);
+
 
     }
 }
